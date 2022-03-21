@@ -6,6 +6,7 @@ const obtenerPokemon = async()=>{
         document.write("<h3> Pokemon de la 5ta generacion </h3>")
         data.results.forEach(element=>{
             console.log(element.url);
+            console.log(element.name);
             document.write("<li>"+element.name+"</li>")
         })
         
